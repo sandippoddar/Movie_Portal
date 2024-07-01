@@ -1,0 +1,85 @@
+uuid: d9d3cb82-876e-47b4-81e4-7defd468101c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - node.type.page
+    - views.view.latest_lists
+    - views.view.latest_reviews
+  module:
+    - layout_builder
+    - quicktabs
+    - text
+    - user
+    - views
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          04893e57-abe9-4394-9003-816fc4a3de8f:
+            uuid: 04893e57-abe9-4394-9003-816fc4a3de8f
+            region: second
+            configuration:
+              id: 'views_block:latest_reviews-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+          c326a7ce-b95e-4c47-9a2b-7bb8ce890ce7:
+            uuid: c326a7ce-b95e-4c47-9a2b-7bb8ce890ce7
+            region: first
+            configuration:
+              id: 'views_block:latest_lists-block_1'
+              label: ''
+              label_display: visible
+              provider: views
+              context_mapping: {  }
+              views_label: ''
+              items_per_page: none
+            weight: 0
+            additional: {  }
+          048955c6-8912-4d0d-9586-b1507f03ac8a:
+            uuid: 048955c6-8912-4d0d-9586-b1507f03ac8a
+            region: first
+            configuration:
+              id: 'quicktabs_block:sample'
+              label: 'QuickTabs - sample'
+              label_display: '0'
+              provider: quicktabs
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+hidden: {  }

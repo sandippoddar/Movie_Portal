@@ -1,0 +1,18 @@
+uuid: 61584266-2852-4592-a27c-07861897736a
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: List
+type: skill
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

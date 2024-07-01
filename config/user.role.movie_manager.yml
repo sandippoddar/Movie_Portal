@@ -1,0 +1,35 @@
+uuid: b00a59df-5e9f-4136-b4aa-ee88eec3b49a
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.movie
+    - node.type.skill
+  module:
+    - admin_toolbar_search
+    - node
+    - toolbar
+id: movie_manager
+label: 'Movie Manager'
+weight: 4
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create movie content'
+  - 'create skill content'
+  - 'delete any movie content'
+  - 'delete any skill content'
+  - 'delete movie revisions'
+  - 'delete own movie content'
+  - 'delete own skill content'
+  - 'delete skill revisions'
+  - 'edit any movie content'
+  - 'edit any skill content'
+  - 'edit own movie content'
+  - 'edit own skill content'
+  - 'revert movie revisions'
+  - 'revert skill revisions'
+  - 'use admin toolbar search'
+  - 'view movie revisions'
+  - 'view skill revisions'
