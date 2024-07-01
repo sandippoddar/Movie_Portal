@@ -1,0 +1,29 @@
+uuid: 597143cf-1aa7-4c5e-aff1-c87a89c7e0c9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_movies_in_list
+    - node.type.movie
+    - node.type.skill
+id: node.skill.field_movies_in_list
+field_name: field_movies_in_list
+entity_type: node
+bundle: skill
+label: 'Movies in list'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      movie: movie
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,11 @@
+uuid: 1c3111c3-3c9b-4c40-a2b0-bc007abaaddd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.review_mode
+label: Review_Mode
+description: ''
+targetEntityType: node
+cache: true

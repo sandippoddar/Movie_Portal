@@ -1,0 +1,9 @@
+uuid: c43c6c8b-6d47-4bfa-8671-5ab893b4b134
+langcode: en
+status: true
+dependencies: {  }
+name: 'Movie Genre'
+vid: movie_genre
+description: null
+weight: 0
+new_revision: false
